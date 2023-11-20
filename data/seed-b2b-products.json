@@ -1,0 +1,262 @@
+{
+  "users": [],
+  "shipping_options": [],
+  "categories": [],
+  "publishable_api_keys": [],
+  "regions": [],
+  "store": {},
+  "products": [
+    {
+      "title": "priv003",
+      "subtitle": null,
+      "description": "Reimagine the feeling of a classic hoodie. With our cotton hoodie, everyday essentials no longer have to be ordinary.",
+      "handle": "priv003",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/black_hoodie_front.png",
+        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/black_hoodie_back.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3650
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4150
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3650
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4150
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3650
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4150
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3650
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4150
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "priv002",
+      "subtitle": null,
+      "description": "Reimagine the feeling of a classic longsleeve. With our cotton longsleeve, everyday essentials no longer have to be ordinary.",
+      "handle": "priv002",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/ls-black-front.png",
+        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/ls-black-back.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "S",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3650
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4150
+            }
+          ],
+          "options": [
+            {
+              "value": "S"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "M",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3650
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4150
+            }
+          ],
+          "options": [
+            {
+              "value": "M"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "L",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3650
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4150
+            }
+          ],
+          "options": [
+            {
+              "value": "L"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        },
+        {
+          "title": "XL",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 3650
+            },
+            {
+              "currency_code": "usd",
+              "amount": 4150
+            }
+          ],
+          "options": [
+            {
+              "value": "XL"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    },
+    {
+      "title": "priv001",
+      "subtitle": null,
+      "description": "Every programmer's best friend.",
+      "handle": "priv001",
+      "is_giftcard": false,
+      "weight": 400,
+      "images": [
+        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/coffee-mug.png"
+      ],
+      "options": [
+        {
+          "title": "Size",
+          "values": [
+            "One Size"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "title": "One Size",
+          "prices": [
+            {
+              "currency_code": "eur",
+              "amount": 1000
+            },
+            {
+              "currency_code": "usd",
+              "amount": 1200
+            }
+          ],
+          "options": [
+            {
+              "value": "One Size"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ]
+    }
+  ]
+
+}
