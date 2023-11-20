@@ -50,7 +50,7 @@ function checkProductTitles(titles: string[]): void {
 
 // Main function to log in, get products, and check titles
 async function main() {
-  const username = "b2bcustomer001";
+  const username = "b2bcustomer001@example.com";
   const password = "b2bcustomer001";
   try {
     const jwtToken = await getJwtToken(username, password);
@@ -64,7 +64,7 @@ async function main() {
 // Jest test suite
 describe("Product Titles", () => {
   it("should warn if product titles do not start with priv", async () => {
-    const jwtToken = await getJwtToken("b2bcustomer001", "b2bcustomer001");
+    const jwtToken = await getJwtToken("b2bcustomer001@example.com", "b2bcustomer001");
     const productTitles = await getProductTitles(jwtToken);
     const titlesNotStartingWithPriv = productTitles.filter(
       (title) => !title.startsWith("priv")

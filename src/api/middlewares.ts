@@ -31,14 +31,14 @@ const filterUserSalesChannels =
     const userId = req.user?.customer_id;
     const providedApiKey = req.get("x-publishable-api-key");
     const featureFlagRouter = req.scope.resolve("featureFlagRouter");
-    console.log(
+/*     console.log(
       "SALES attached",
       featureFlagRouter.isFeatureEnabled(SalesChannelFeatureFlag.key)
-    );
-    console.log(
+    ); */
+/*     console.log(
       "SALES attached",
       featureFlagRouter.isFeatureEnabled(IsolateProductDomain.key)
-    );
+    ); */
 
     if (providedApiKey) {
       /* req.publishableApiKeyScopes = await publishableKeyService.getResourceScopes(
